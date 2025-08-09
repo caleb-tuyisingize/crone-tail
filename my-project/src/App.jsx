@@ -1,10 +1,9 @@
-import header from "./components/header.jsx";
+import Body from "./Body.jsx";
 function App() {
 
-
-  return (
+  return(
     <>
-     <header/>
+   <Body/>
     </>
   )
 }
