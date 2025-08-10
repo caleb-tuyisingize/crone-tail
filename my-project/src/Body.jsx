@@ -1,17 +1,262 @@
-
+ 
 export default function Body(){
     return(
         <>
-        <div className="grid grid-cols-3 space-x-2 dark:bg-gray-500 bg-red-200">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Document</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 overflow-x-hidden">
+<nav class="flex justify-between px-12 py-12 fixed w-full bg-white grow">
+    <div class="flex">
+        <img src="../img/image.png" class="w-5 h-6" alt=""/>
+        <h2 class="ml-2">Lasles<span class="font-bold">VPN</span></h2>
+    </div>
+    <div id="menus" class="max-[720px]:mt-20 max-[390px]:bg-red-500 md:mt-1  md:flex lg:flex xl:flex">
+        <ul class="flex space-x-4 ml-10 text-gray-500 lg:right-[400px] sm:right-[130px] md:right-[300px] absolute">
+            <li class="sm:text-2xl sm:text-gray-800 sm:font-bold md:text-1xl md:text-gray-500 md:font-normal">About</li>
+            <li class="sm:text-2xl sm:text-gray-800 sm:font-bold md:text-1xl md:text-gray-500 md:font-normal">Features</li>
+            <li class="sm:text-2xl sm:text-gray-800 sm:font-bold md:text-1xl md:text-gray-500 md:font-normal">Pricing</li>
+            <li class="sm:text-2xl sm:text-gray-800 sm:font-bold md:text-1xl md:text-gray-500 md:font-normal">Testimonials</li>
+            <li class="sm:text-2xl sm:text-gray-800 sm:font-bold md:text-1xl md:text-gray-500 md:font-normal">Help</li>
+        </ul>
+    </div>
+    <div class="flex w-54 justify-between absolute right-12">
+        <span class="font-semibold text-center mt-2">Sign In</span>
+        <button class="bg-white h-12 font-semibold w-32 grow-0 text-red-500 border-red-500 border-2 py-2 rounded-full ml-4">Sign Up</button>
+    </div>
+</nav>
+<br/>
 
-        <div className="peer group focus:w-[300px] text-gray-400 content-center text-center bg-green-900 w-[200px] h-[200px] mx-auto mt-12"><span className="group-hover:text-red-400 group-focus:text-yellow-900">Why now??</span></div>
-        <div className="peer-hover:animate-spin group focus:w-[300px] text-gray-400 content-center text-center bg-green-900 w-[200px] h-[200px] mx-auto mt-12"><span className="group-hover:text-red-400 group-focus:text-yellow-900">Why now??</span></div>
-        <div className="peer-hover:animate-spin group focus:w-[300px] text-gray-400 content-center text-center bg-green-900 w-[200px] h-[200px] mx-auto mt-12"><span className="group-hover:text-red-400 group-focus:text-yellow-900">Why now??</span></div>
-        <div className="peer-hover:animate-spin group focus:w-[300px] text-gray-400 content-center text-center bg-green-900 w-[200px] h-[200px] mx-auto mt-12"><span className="group-hover:text-red-400 group-focus:text-yellow-900">Why now??</span></div>
-        <div className="peer-hover:animate-spin group focus:w-[300px] text-gray-400 content-center text-center bg-green-900 w-[200px] h-[200px] mx-auto mt-12"><span className="group-hover:text-red-400 group-focus:text-yellow-900">Why now??</span></div>
-        <div className="peer-hover:animate-spin group focus:w-[300px] text-gray-400 content-center text-center bg-green-900 w-[200px] h-[200px] mx-auto mt-12"><span className="group-hover:text-red-400 group-focus:text-yellow-900">Why now??</span></div>
-        <div className="peer-hover:animate-spin group focus:w-[300px] text-gray-400 content-center text-center bg-green-900 w-[200px] h-[200px] mx-auto mt-12"><span className="group-hover:text-red-400 group-focus:text-yellow-900">Why now??</span></div>
+<div class="block w-full justify-around mt-10 px-12 pt-[130px] sm:h-[600px] sm:block sm:w-full md:flex">
+    <div>
+        <h1 class="text-4xl font-bold text-gray-900">Want anything to be easy with <span class="text-gray-900">LaslesVPN.</span></h1><br/>
+        <p>Provide a network for all your needs with ease and fun using LaslesVPN discover interesting features from us.</p>
+        <br/>
+        <button class="bg-red-500 text-white font-semibold w-32 py-2 rounded shadow-xl">Get Started</button>
+    </div>
+    <img src="../img/Screenshot 2025-07-25 115907.png" class="sm:w-full md:w-[400px] lg:w-[500px] xl:w-[600px]" alt=""/>
+
+</div>
+
+<br/>
+<div class="flex bg-white h-36 w-[900px] items-center grow justify-center rounded shadow-lg mx-auto sm:mt-[170px] sm:w-full md:mt-[1px] md:w-full lg:mt-[1px] lg:w-full">
+    <div class="flex justify-between items-center">
+      <div class="user flex items-center justify-between w-39 h-16 border-r-2 px-12">
+        <i class="fas fa-user-circle text-red-200 rounded-full bg-red-600 text-[30px] mt-2"></i>
+        <span class="text-gray-500 ml-2 mt-2 grid"><span class="font-bold text-gray-900">90+</span> users</span>
+      </div>
+      <div class="user flex items-center justify-between w-39 h-16 border-r-2 px-12">
+        <i class="fa-solid fa-location-dot text-red-600 rounded-full h-[30px] items-center content-center text-center w-[30px] bg-red-200 text-[13px] mt-2"></i>
+        <span class="text-gray-500 ml-2 mt-2 grid"><span class="font-bold text-gray-900">30+</span> Locations</span>
+      </div>
+      <div class="user flex items-center justify-between w-39 h-16 px-12">
+        <i class="fa-solid fa-server text-red-600 rounded-full h-[30px] items-center content-center text-center w-[30px] bg-red-200 text-[13px] mt-2"></i>
+        <span class="text-gray-500 ml-2 mt-2 grid"><span class="font-bold text-gray-900">50+</span> Servers</span>
+      </div>
+    </div>
+
+</div>
+
+<div class="flex grid-cols-2 mt-10 px-12 sm:block sm:w-full md:flex md:justify-between lg:flex lg:justify-between xl:flex xl:justify-between">
+    <div>
+        <img src="./img/front.png" class="sm:w-full md:w-[400px] lg:w-[500px] xl:w-[600px]" alt=""/>
+    </div>
+    <div class="ml-10 mt-20  w-[412px]">
+        <h1 class="font-semibold text-2xl">We Provide Many <br/> Features You Can Use</h1><br/>
+        <p class="text-gray-700 text-1xl">You can explore the features that we provide with fun and have their own functions each feature.</p><br/>
+        <span><i class="fa-solid fa-check-circle text-green-500 text-2xl"></i> Powerfull online protection.</span><br/>
+        <span><i class="fa-solid fa-check-circle text-green-500 text-2xl"></i> Internet without borders.</span><br/>
+        <span><i class="fa-solid fa-check-circle text-green-500 text-2xl"></i> Supercharged VPN</span><br/>
+        <span><i class="fa-solid fa-check-circle text-green-500 text-2xl"></i> No specific time limits.</span><br/>
+    </div>
+</div><br/>
+<div class="plain w-full text-center items-center">
+    <h1 class="font-semibold text-2xl">Choose Your Plan</h1>
+    <span class=""><p class="text-gray-700 text-1xl">Let's choose the package that is best for you and explore it happily and <br/> cheerfully.</p></span>    
+</div><br/>
+<div class="flex justify-around mt-10 px-12 sm:block sm:gap-12 sm:w-full md:flex md:justify-between lg:flex lg:justify-between xl:flex xl:justify-between">
+    <div class="bg-white w-72 h-auto py-8 rounded-lg shadow-lg p-6 content-center text-center px-12 sm:mb-10 sm:w-full">
+        <img src="./img/plan.png" alt=""/>
+        <h1 class="text-2xl font-semibold">Free Plan</h1>
+
+            <div class="text-left w-60 text-1xl">
+                <br/>
+        <span><i class="fa-solid fa-check text-green-500 text-1xl"></i> &nbsp; &nbsp; Unlimited Bandwitch</span><br/>
+        <span><i class="fa-solid fa-check text-green-500 text-1xl"></i> &nbsp; &nbsp; Encrypted Connection</span><br/>
+        <span><i class="fa-solid fa-check text-green-500 text-1xl"></i> &nbsp; &nbsp; No Traffic Logs</span><br/>
+        <span><i class="fa-solid fa-check text-green-500 text-1xl"></i> &nbsp; &nbsp; Works on All Devices</span><br/>
+    </div>
+
+        <p class="text-gray-500 mt-2">Perfect for trying out our service.</p>
+        <h2 class="text-4xl font-bold mt-4">Free</h2>
+        <button class="border-2 border-red-600 text-red-600 font-semibold w-full py-2 rounded-full mt-4">Select</button>
+    </div>
+    <div class="bg-white w-72 h-auto py-8 rounded-lg shadow-lg p-6 content-center text-center px-12 sm:mb-10 sm:w-full">
+        <img src="./img/plan.png" alt=""/>
+        <h1 class="text-2xl font-semibold">Standard Plan</h1>
+
+                    <div class="text-left w-60 text-1xl">
+                <br/>
+        <span><i class="fa-solid fa-check text-green-500 text-1xl"></i> &nbsp; &nbsp; Unlimited Bandwitch</span><br/>
+        <span><i class="fa-solid fa-check text-green-500 text-1xl"></i> &nbsp; &nbsp; Encrypted Connection</span><br/>
+        <span><i class="fa-solid fa-check text-green-500 text-1xl"></i> &nbsp; &nbsp; Yes Traffic Logs</span><br/>
+        <span><i class="fa-solid fa-check text-green-500 text-1xl"></i> &nbsp; &nbsp; Works on All Devices</span><br/>
+        <span><i class="fa-solid fa-check text-green-500 text-1xl"></i> &nbsp; &nbsp; Connect Anyware</span><br/>
+    </div>
+        <p class="text-gray-500 mt-2">Great for personal use.</p>
+        <h2 class="text-4xl font-bold mt-4">$9 / <span class="font-normal text-gray-600">mo</span></h2>
+        <button class="border-2 border-red-600 text-red-600 font-semibold w-full py-2 rounded-full mt-4">Select</button>
+    </div>
+    <div class="bg-white w-72 h-auto py-8 rounded-lg shadow-lg p-6 content-center text-center px-12 sm:mb-10 sm:w-full">
+        <img src="./img/plan.png" alt=""/>
+        <h1 class="text-2xl font-semibold">Premium Plan</h1>
+        
+                    <div class="text-left w-60 text-1xl">
+                <br/>
+        <span><i class="fa-solid fa-check text-green-500 text-1xl"></i> &nbsp; &nbsp; Unlimited Bandwitch</span><br/>
+        <span><i class="fa-solid fa-check text-green-500 text-1xl"></i> &nbsp; &nbsp; Encrypted Connection</span><br/>
+        <span><i class="fa-solid fa-check text-green-500 text-1xl"></i> &nbsp; &nbsp; Yes Traffic Logs</span><br/>
+        <span><i class="fa-solid fa-check text-green-500 text-1xl"></i> &nbsp; &nbsp; Works on All Devices</span><br/>
+        <span><i class="fa-solid fa-check text-green-500 text-1xl"></i> &nbsp; &nbsp; Connect Anyware</span><br/>
+    </div>
+        <p class="text-gray-500 mt-2">Best for families and teams.</p>
+        <h2 class="text-4xl font-bold mt-4">$12 / <span class="font-normal text-gray-600">mo</span></h2>
+        <button class="bg-red-600 text-white font-semibold w-full py-2 rounded-full mt-4">Select</button>
+    </div>
+</div>
+    <br/><br/>
+<div class="plain w-full text-center items-center">
+    <h1 class="font-semibold text-2xl">Huge Global Network <br/>of Fast VPN  </h1>
+    <span class=""><p class="text-gray-700 text-1xl">See LaslesVPN everywhere to make it easier for you when you move<br/> locations.</p></span>    
+</div>
+<br/><br/>
+<div class="bg-white z-10 relative">
+    <img src="./img/earth.png" alt=""/>
+    <div class="social-media flex justify-around mt-10 shadow-lg">
+   <a href="#"><img src="./img/netflix.png" class="h-12" alt=""/></a>
+   <a href="#"><img src="./img/reddit.png" class="h-12" alt=""/></a>
+   <a href="#"><img src="./img/amazon.png" class="h-12" alt=""/></a>
+   <a href="#"><img src="./img/discord.png" class="h-12" alt=""/></a>
+   <a href="#"><img src="./img/spotify.png" class="h-12" alt=""/></a>
+    </div>
+</div>
+    <br/><br/>
+<div class="plain w-full text-center items-center">
+    <h1 class="font-semibold text-2xl">Trusted by Thousands of <br/> Happy Customer</h1>
+    <span class=""><p class="text-gray-700 text-1xl">These are the stories of our customers who have joined us with great <br/> pleasure when using this crazy feature.</p></span>   
+    <div class="cards flex justify-around mt-10 px-12">
+        <div class="card w-[300px] bg-white shadow-lg rounded-lg p-6 mt-10 mx-auto border-red-500 border-2">
+            <span class="text-gray-500 flex items-center gap-3"><img src="./img/image copy1.png" class="w-12" alt=""/><div class="text-1xl"> <span class="font-semibold text-2xl text-gray-900">Viezh Robert</span><br/>Warsaw, Poland</div></span>
+            <p class="text-gray-700 text-1xl">“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.</p>
         </div>
+
+
+        <div class="card w-[300px] bg-white shadow-lg rounded-lg p-6 mt-10 mx-auto">
+            <span class="text-gray-500 flex items-center gap-3"><img src="./img/yesica.png" class="w-12" alt=""/><div class="text-1xl"> <span class="font-semibold text-2xl text-gray-900">Yessica Christy</span><br/>Shanxi, China</div></span>
+            <p class="text-gray-700 text-1xl">“I like it because I like to travel far and still can connect with high speed.”.</p>
+        </div>
+
+
+        <div class="card w-[300px] bg-white shadow-lg rounded-lg p-6 mt-10 mx-auto">
+            <span class="text-gray-500 flex items-center gap-3"><img src="./img/kim.png" class="w-12" alt=""/><div class="text-1xl"> <span class="font-semibold text-2xl text-gray-900">Kim Young Jou</span><br/>Seoul, South Korea</div></span>
+            <p class="text-gray-700 text-1xl">“This is very unusual for my business that currently requires a virtual private network that has high security.”.</p>
+        </div>
+    </div> 
+    <br/>
+    <div class="controlers flex px-12 justify-between items-center">
+           <div class="pagination">
+       <button class="prev bg-red-600 w-6 h-[5px] rounded-full"></button>
+       <button class="next bg-gray-400 w-[5px] h-[5px] rounded-full"></button>
+       <button class="next bg-gray-400 w-[5px] h-[5px] rounded-full"></button>
+       <button class="next bg-gray-400 w-[5px] h-[5px] rounded-full"></button>
+   </div>
+       <div class="scroller">
+        <span class="text-red-600 text-2xl cursor-pointer"><i class="fa-solid fa-arrow-left bg-white border-2 border-red-600 text-red-600 p-2 text-[10px] rounded-full"></i></span>
+        <span class="text-gray-500 text-2xl cursor-pointer"><i class="fa-solid fa-arrow-right bg-red-600 text-white p-2 text-[10px] rounded-full"></i></span>
+       </div> 
+        
+    </div>
+</div><br/>
+<div class="sub shadow-lg flex justify-between px-20 items-center h-64 rounded-lg mt-10">
+
+    <div class="plain w-full">
+        <h1 class="font-semibold text-2xl">Subscribe Now for <br/> Get Special Features!</h1>
+        <span class=""><p class="text-gray-700 text-1xl">Let's subscribe with us and find the fun.</p></span>
+    </div>
+    <div class="text-white bg-red-600 text-[13px] h-8 flex w-[150px] cursor-pointer text-center items-center px-5 font-bold content-center rounded">Subscribe Now</div>
+</div>
+<footer class="flex justify-between items-center mt-10 bg-white px-12 py-6 shadow-lg bg-gray-200">
+    <div class="justify-between px-12 py-6">
+        <div class="items-center w-[300px]">
+            <div class="flex">
+
+                <img src="../img/image.png" class="w-5 h-6" alt=""/>
+                <h2 class="ml-2">Lasles<span class="font-bold">VPN</span></h2>
+            </div><br/>
+            <p><span>LaslesVPN</span> is a private virtual network that has unique features and has high security.
+            </p><br/>
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook text-red-600 text-1xl"></i></a>
+                <a href="#"><i class="fa-brands text-red-600 fa-twitter text-gray-500 text-1xl ml-4"></i></a>
+                <a href="#"><i class="fa-brands text-red-600 fa-instagram text-gray-500 text-1xl ml-4"></i></a>
+            </div>
+        </div>
+        <div class="text-gray-500">
+            <p class="text-sm">© 2023 LaslesVPN</p>
+        </div>
+    </div>
+    <div class="Products">
+        <h1 class="text-gray-900 font-semibold text-lg">Products</h1>
+        <ul class="text-gray-500">
+            <li>Download</li>
+            <li>Pricing</li>
+            <li>Locations</li>
+            <li>Server</li>
+            <li>Countries</li>
+            <li>Blog</li>
+        </ul>
+    </div>
+    <div class="Engage">
+        <h1 class="text-gray-900 font-semibold text-lg">Engage</h1>
+        <ul class="text-gray-500">
+            <li>LaslesVPN</li>
+            <li>FAQ</li>
+            <li>Tutorials</li>
+            <li>About Us</li>
+            <li>Privacy Policy</li>
+            <li>Terms of Service</li>
+        </ul>
+    </div>
+    .<div class="Earn Money">
+        <h1 class="text-gray-900 font-semibold text-lg">Earn Money</h1>
+        <ul class="text-gray-500">
+            <li>Affiliate</li>
+            <li>Become Partner</li>
+        </ul>
+
+     </div>
+</footer>
+<br/><br/>
+</body>
+
+
         </>
     )
 }
+
+    document.addEventListener("scroll", function() {
+        const menus = document.getElementById("menus");
+        const scrollPosition = window.scrollY || document.documentElement.scrollTop;
+
+        // Check if the scroll position is greater than 0
+        if (scrollPosition > 0) {
+            menus.classList.add("hidden");
+            console.log("Scroll position is greater than 0, hiding menus.");
+        } else {
+            menus.classList.remove("hidden");
+        }
+    });
