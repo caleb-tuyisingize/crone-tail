@@ -2,7 +2,11 @@
 export default function Body(){
     return(
         <>
-        <h1 className="text-red-400">Why now??</h1>
+        <div className="flex space-x-2">
+
+        <div className="peer group focus:w-[300px] text-gray-400 content-center text-center bg-green-900 w-[200px] h-[200px] mx-auto mt-12"><span className="group-hover:text-red-400 group-focus:text-yellow-900">Why now??</span></div>
+        <div className="peer-hover:animate-spin group focus:w-[300px] text-gray-400 content-center text-center bg-green-900 w-[200px] h-[200px] mx-auto mt-12"><span className="group-hover:text-red-400 group-focus:text-yellow-900">Why now??</span></div>
+        </div>
         </>
     )
 }
